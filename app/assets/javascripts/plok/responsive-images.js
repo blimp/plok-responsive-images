@@ -1,5 +1,5 @@
 var plok = plok || {}
-plok.images = {
+plok.responsive_images = {
   // TODO: Extract this from the gem source; to be used in projects.
   init: function() {
     plok.scrolled_to.init('[data-defer]', this.defer.init);
@@ -9,11 +9,11 @@ plok.images = {
 
   defer: {
     init: function(observer_entry) {
-      plok.images.defer.process_image($(observer_entry.target));
+      plok.responsive_images.defer.process_image($(observer_entry.target));
     },
 
     process_image: function(element) {
-      var source = plok.images.defer.extract_path(element);
+      var source = plok.responsive_images.defer.extract_path(element);
 
       if(element.is('img')) {
         element.attr('src', source);
@@ -24,7 +24,7 @@ plok.images = {
 
     extract_path: function(element) {
       if(element.data('responsive')) {
-        return plok.images.responsive.extract_path(element.data('responsive'));
+        return plok.responsive_images.responsive.extract_path(element.data('responsive'));
       } else {
         return element.data('defer'); // Value of defer should have a path.
       }
@@ -38,9 +38,9 @@ plok.images = {
         var versions = element.data('responsive');
 
         if(element.is('img')) {
-          element.attr('src', plok.images.responsive.extract_path(versions));
+          element.attr('src', plok.responsive_images.responsive.extract_path(versions));
         } else {
-          element.css('background-image', 'url('+ plok.images.responsive.extract_path(versions) +')');
+          element.css('background-image', 'url('+ plok.responsive_images.responsive.extract_path(versions) +')');
         }
       });
     },

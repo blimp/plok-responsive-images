@@ -33,7 +33,7 @@ In your application.js:
 
 Call the following as early as possible in your JavaScript:
 ```js
-plok.images.init();
+plok.responsive_images.init();
 ```
 
 ## Development
