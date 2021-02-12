@@ -1,5 +1,5 @@
 require "bundler/setup"
-require "plok/responsive_images"
+require "plok-responsive-images"
 
 RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure
