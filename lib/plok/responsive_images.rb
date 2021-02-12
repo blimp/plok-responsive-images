@@ -1,5 +1,6 @@
 require "plok/responsive_images/version"
 require "plok/responsive_image"
+require "plok/helpers"
 
 module Plok
   module ResponsiveImages
