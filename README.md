@@ -3,8 +3,8 @@
 This gem provides more functionality to deal with images in a responsive design.
 
 ## Features
-* JavaScript responsive breakpoints
-* Image versions per breakpoint
+* Usable responsive breakpoints in JavaScript
+* Configurable image versions per breakpoint
 * Deferral of images below the fold
 
 ## Installation
@@ -12,7 +12,7 @@ This gem provides more functionality to deal with images in a responsive design.
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'defer-images'
+gem 'plok-responsive-images'
 ```
 
 And then execute:
@@ -21,7 +21,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install defer-images
+    $ gem install plok-responsive-images
 
 ## Usage
 
@@ -35,7 +35,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/defer-images. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+Bug reports and pull requests are welcome on GitHub at https://github.com/blimp/plok-responsive-images. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
 
 ## License
 
@@ -43,4 +43,6 @@ The gem is available as open source under the terms of the [MIT License](https:/
 
 ## Code of Conduct
 
-Everyone interacting in the project’s codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/[USERNAME]/defer-images/blob/master/CODE_OF_CONDUCT.md).
+Everyone interacting in the project’s codebases, issue trackers, chat rooms and
+mailing lists is expected to follow the [code of
+conduct](https://github.com/blimp/plok-responsive-images/blob/master/CODE_OF_CONDUCT.md).
