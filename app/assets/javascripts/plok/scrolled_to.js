@@ -4,7 +4,7 @@ plok.scrolled_to = {
 
   init: function(selector, process, callback) {
     var bind_observers_with_callback = function(entries){
-      scrolled_to.process_observations(entries, process, callback);
+      plok.scrolled_to.process_observations(entries, process, callback);
     };
 
     this.observer = new IntersectionObserver(bind_observers_with_callback, { rootMargin: "5% 0%" });
@@ -13,7 +13,7 @@ plok.scrolled_to = {
 
   observe: function(selector) {
     this.query(selector).forEach(function(item){
-      scrolled_to.observer.observe(item);
+      plok.scrolled_to.observer.observe(item);
     });
   },
 
@@ -21,7 +21,7 @@ plok.scrolled_to = {
     entries.forEach(function(entry) {
       if(!entry.isIntersecting) return;
       process(entry);
-      scrolled_to.observer.unobserve(entry.target);
+      plok.scrolled_to.observer.unobserve(entry.target);
     });
 
     if(typeof callback == 'function') callback(entries);

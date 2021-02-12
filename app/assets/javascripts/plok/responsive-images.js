@@ -2,7 +2,7 @@ var plok = plok || {}
 plok.images = {
   // TODO: Extract this from the gem source; to be used in projects.
   init: function() {
-    scrolled_to.init('[data-defer]', this.defer.init);
+    plok.scrolled_to.init('[data-defer]', this.defer.init);
     bsBreakpoints.init();
     $(window).on('new.bs.breakpoint', this.responsive.breakpoint_listener);
   },
