@@ -1,5 +1,5 @@
 require "bundler/setup"
-require "defer/images"
+require "plok/responsive_images"
 
 RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure

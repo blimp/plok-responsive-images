@@ -2,5 +2,5 @@ source "https://rubygems.org"
 
 git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
 
-# Specify your gem's dependencies in defer-images.gemspec
+# Specify your gem's dependencies in plok-responsive-images.gemspec
 gemspec
