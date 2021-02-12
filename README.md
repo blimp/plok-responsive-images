@@ -1,8 +1,11 @@
-# Defer::Images
+# Plok Responsive Images
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/defer/images`. To experiment with that code, run `bin/console` for an interactive prompt.
+This gem provides more functionality to deal with images in a responsive design.
 
-TODO: Delete this and the text above, and describe your gem
+## Features
+* JavaScript responsive breakpoints
+* Image versions per breakpoint
+* Deferral of images below the fold
 
 ## Installation
 
@@ -40,4 +43,4 @@ The gem is available as open source under the terms of the [MIT License](https:/
 
 ## Code of Conduct
 
-Everyone interacting in the Defer::Images project’s codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/[USERNAME]/defer-images/blob/master/CODE_OF_CONDUCT.md).
+Everyone interacting in the project’s codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/[USERNAME]/defer-images/blob/master/CODE_OF_CONDUCT.md).
