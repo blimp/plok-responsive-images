@@ -1,11 +1,11 @@
 
 lib = File.expand_path("../lib", __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require "plok-responsive-images/version"
+require "plok/responsive_images/version"
 
 Gem::Specification.new do |spec|
   spec.name          = "plok-responsive-images"
-  spec.version       = PlokResponsiveImages::VERSION
+  spec.version       = Plok::ResponsiveImages::VERSION
   spec.authors       = ["davelens"]
   spec.email         = ["github@davelens.be"]
 

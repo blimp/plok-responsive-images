@@ -1,4 +1,4 @@
-RSpec.describe PlokResponsiveImages::Image do
+RSpec.describe Plok::ResponsiveImages::Image do
   let(:view) { double(:view_context) }
 
   describe '#interchange' do

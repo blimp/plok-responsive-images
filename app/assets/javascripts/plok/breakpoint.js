@@ -1,5 +1,5 @@
 var plok = plok || {}
-var plok.breakpoint = { // Singular because it reads better in conditionals.
+plok.breakpoint = { // Singular because it reads better in conditionals.
   lteq: function(bp) {
     switch(bp) {
       case 'xSmall':
