@@ -25,7 +25,16 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+In your application.js:
+
+```js
+//= require plok/responsive_images
+```
+
+Call the following as early as possible in your JavaScript:
+```js
+plok.images.init();
+```
 
 ## Development
 
