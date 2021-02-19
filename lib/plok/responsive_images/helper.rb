@@ -10,7 +10,6 @@ module Plok::ResponsiveImages::Helper
   end
 
   def responsive_image_tag(versions: {}, lazy: false, html: {})
-    puts html.inspect
     responsive_image(versions: versions).html(lazy: lazy, html: html)
   end
 end
