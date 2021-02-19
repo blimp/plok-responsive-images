@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    plok-responsive-images (0.1.0)
+    plok-responsive-images (1.0.0)
 
 GEM
   remote: https://rubygems.org/
