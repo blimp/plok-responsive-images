@@ -7,6 +7,17 @@ GEM
   remote: https://rubygems.org/
   specs:
     diff-lcs (1.4.4)
+    jasmine (3.6.0)
+      jasmine-core (~> 3.6.0)
+      phantomjs
+      rack (>= 1.2.1)
+      rake
+    jasmine-core (3.6.0)
+    nio4r (2.5.5)
+    phantomjs (2.1.1.0)
+    puma (5.2.1)
+      nio4r (~> 2.0)
+    rack (2.2.3)
     rake (10.5.0)
     rspec (3.10.0)
       rspec-core (~> 3.10.0)
@@ -27,7 +38,9 @@ PLATFORMS
 
 DEPENDENCIES
   bundler (~> 2.2.3)
+  jasmine (~> 3.6)
   plok-responsive-images!
+  puma (~> 5.2)
   rake (~> 10.0)
   rspec (~> 3.0)
 
